@@ -50,3 +50,8 @@ header{
     text-align: center;
     cursor: pointer;
 }
+
+.logo .logo-text{
+    font-size: 24px;
+    font-weight: 500;
+}
