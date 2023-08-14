@@ -151,6 +151,8 @@ nav .navlinks li a{
     color: aliceblue;
 }
 
+/*button*/
+
 .button{
     margin: 45px 0;
 }
@@ -178,6 +180,64 @@ nav .navlinks li a{
     border-radius: 30px;
     border: 2px solid white;
     box-shadow: 1px 3px 10px lightblue;
-
 }
 
+/*small screen adjestment*/
+
+@media (max-width:930px) {
+    nav .togglebutton{
+        display: initial;
+    }
+    .click{
+        top: 45px;
+    }
+    .click span{
+        position: absolute;
+        margin-top: 12px;
+    }
+    .click span:first-child{
+        transform: rotate(-40deg);
+    }
+    .click span:nth-child(2){
+        opacity: 0;
+        margin: 0;
+    }
+    .click span:last-child{
+        transform: rotate(45deg);
+        top: 0;
+    }
+    nav .navlinks{
+        position: absolute;
+        top: 110px;
+        right: 0;
+        bottom: 0;
+        width: 60%;
+        height: 100vh;
+        background-color: black;
+        opacity: 90%;
+        z-index: 3;
+        transition: 0.5s;
+        padding: 25px 0px;
+    }
+    nav .navlinks li{
+        display: block;
+    }
+    nav .navlinks li a{
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    nav .navlinks.open{
+        right: 0;
+    }
+}
+
+@media(max-width:930px){
+    .container{
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .profileText{
+        padding: 40px 0px;
+    }
+}
