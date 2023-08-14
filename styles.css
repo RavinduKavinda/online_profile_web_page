@@ -101,3 +101,11 @@ nav .navlinks li a{
 
 }
 
+.container .profileImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 15px solid black;
+    box-shadow: 5px 7px 25px gray;
+}
