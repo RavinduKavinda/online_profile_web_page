@@ -55,3 +55,39 @@ header{
     font-size: 24px;
     font-weight: 500;
 }
+
+/* Navigation */
+nav .togglebutton{
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 45px;
+    right: 3%;
+    z-index: 5;
+    cursor: pointer;
+    background-color: black;
+    display: none;
+}
+
+nav .togglebutton span{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 0px;
+    width: 100%;
+    height: 2.5px;
+    transition: 0.3s;
+    transition-property: transform, opacity;
+}
+
+nav .navlinks{
+    list-style-type: none;
+}
+
+nav .navlinks li{
+    display: inline-block;   
+}
+
+nav .navlinks li a{
+    color: black;
+    margin-right: 3rem;
+}
