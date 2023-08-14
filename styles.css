@@ -4,6 +4,7 @@
     margin: 0;
     font-family: poppins,sans-serif;
     text-decoration: none;
+    background-color: black;
 }
 
 body{
@@ -42,7 +43,7 @@ header{
     width: 45px;
     background-color: black;
     border-radius: 50%;
-    color: beige;
+    color: white;
     font-weight: 700;
     font-size: 1.5rem;
     padding: 10px;
@@ -54,12 +55,13 @@ header{
 .logo .logo-text{
     font-size: 24px;
     font-weight: 500;
+    color: white;
 }
 
 /* Navigation */
 nav .togglebutton{
     width: 30px;
-    height: 20px;
+    height: 30px;
     position: absolute;
     top: 45px;
     right: 3%;
@@ -88,7 +90,7 @@ nav .navlinks li{
 }
 
 nav .navlinks li a{
-    color: black;
+    color: white;
     margin-right: 3rem;
 }
 
@@ -102,11 +104,11 @@ nav .navlinks li a{
 
 /* image */
 .container .profileImg{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
-    border: 10px solid black;
+    border: 10px solid gray;
     box-shadow: 5px 7px 25px gray;
 }
 
@@ -120,3 +122,25 @@ nav .navlinks li a{
     transform: scale(1.5);
 }
 
+/* profileText */
+
+.profileText{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.profileText h5{
+    font-size: 16px;
+
+}
+
+.profileText h5 span{
+    color: rgb(59, 59, 255);
+
+}
+
+.profileText h1{
+    
+}
