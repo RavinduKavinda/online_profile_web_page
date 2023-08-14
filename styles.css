@@ -98,14 +98,25 @@ nav .navlinks li a{
     justify-content: space-around;
     align-items: center;
     padding-top: 4rem;
-
 }
 
+/* image */
 .container .profileImg{
     width: 300px;
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
-    border: 15px solid black;
+    border: 10px solid black;
     box-shadow: 5px 7px 25px gray;
 }
+
+.profileImg img{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.profileImg img:hover{
+    transform: scale(1.5);
+}
+
