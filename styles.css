@@ -108,8 +108,8 @@ nav .navlinks li a{
     height: 250px;
     border-radius: 50%;
     overflow: hidden;
-    border: 10px solid gray;
-    box-shadow: 5px 7px 25px gray;
+    border: 10px solid blue;
+    box-shadow: 1px 3px 10px lightblue;
 }
 
 .profileImg img{
@@ -142,5 +142,6 @@ nav .navlinks li a{
 }
 
 .profileText h1{
-    
+    color: blue;
+    font-size: 3rem;
 }
