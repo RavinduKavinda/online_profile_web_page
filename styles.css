@@ -167,6 +167,7 @@ nav .navlinks li a{
     border-radius: 30px;
     border: 2px solid white;
     box-shadow: 1px 3px 10px lightblue;
+    margin-right: 15px;
 
 }
 
@@ -180,7 +181,32 @@ nav .navlinks li a{
     border-radius: 30px;
     border: 2px solid white;
     box-shadow: 1px 3px 10px lightblue;
+    margin-right: 15px;
 }
+
+.button .cbutton:hover{
+    color: blue;
+    border-color: blue;
+    transition: 0.5s;
+}
+
+.button .dbutton:hover{
+    color: blue;
+    border-color: blue;
+    transition: 0.5s;
+}
+
+.profileText .social i{
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+
+.profileText .social i:hover{
+    color: blue;
+}
+
 
 /*small screen adjestment*/
 
