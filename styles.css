@@ -223,6 +223,7 @@ nav .navlinks li a:hover{
 
 .accordion .contentBox{
     position: relative;  
+    margin: 10px 20px;
 }
 
 .accordion .contentBox .label{
@@ -231,7 +232,6 @@ nav .navlinks li a:hover{
     background-color: blue;
     color: white;
     cursor: pointer;
-    border-radius: 5%;
 }
 
 .accordion .contentBox .label::before{
@@ -243,14 +243,23 @@ nav .navlinks li a:hover{
     font-size: 1.5em;
 }
 
+.accordion .contentBox.active .label::before{
+    content: '-';
+}
+
 .accordion .contentBox .content{
     position: relative;
-    background: white;
+    color: aliceblue;
+    background-color: black;
     height: 0;
     overflow: hidden;
     transition: 0.5s;
-    overflow-y: auto;
-    
+    overflow-y: auto;   
+}
+
+.accordion .contentBox.active .content{
+    height: auto;
+    padding: 10px;
 }
 
 /*small screen adjestment*/
