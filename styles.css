@@ -176,18 +176,6 @@ nav .navlinks li a:hover{
 
 }
 
-.button .dbutton{
-    border-color: white;
-    color: white;
-    background-color: black;
-    padding: 12px 25px;
-    margin: 5px 0px;
-    margin-right: 7px;
-    border-radius: 30px;
-    border: 2px solid white;
-    box-shadow: 1px 3px 10px lightblue;
-    margin-right: 15px;
-}
 
 .button .cbutton:hover{
     color: blue;
@@ -195,11 +183,6 @@ nav .navlinks li a:hover{
     transition: 0.5s;
 }
 
-.button .dbutton:hover{
-    color: blue;
-    border-color: blue;
-    transition: 0.5s;
-}
 
 .profileText .social i{
     color: white;
@@ -261,6 +244,7 @@ nav .navlinks li a:hover{
     height: auto;
     padding: 10px;
 }
+
 
 /*small screen adjestment*/
 
